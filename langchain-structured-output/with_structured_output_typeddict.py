@@ -16,6 +16,7 @@ class Review(TypedDict):
     cons: Annotated[Optional[list[str]], "Write down all the cons inside a list"]
     name: Annotated[Optional[str], "Write the name of the reviewer"]
     
+    #if you want data validation you can use pydantic
 
 structured_model = model.with_structured_output(Review)
 
