@@ -1,4 +1,0 @@
-langchain-experimental
-langchain-google-genai
-python-dotenv
-google-generativeai
